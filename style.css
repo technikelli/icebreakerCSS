@@ -1,0 +1,92 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(250, 66, 189);
+    font-family:'Lucida Sans', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Titan One', cursive;
+    background-color: lavender;
+    color:rgb(250, 66, 189);
+    margin: -10px;
+}
+
+h1:hover{
+    color:rebeccapurple;
+}
+
+img {
+    border-radius: 50%;
+    height: 30%;
+    width: 30%;
+    margin-left: 450px;
+
+}
+img:hover{
+    filter:grayscale(100%);
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+[type='text']{
+    border-radius: 10px;
+    background-color: lavender;
+}
+[type='text']:hover{
+    background-color: rebeccapurple;
+    color:rgb(255, 255, 255);
+}
+
+select{
+    border-radius: 10px;
+    width: 300px; 
+    background-color: lavender;
+}
+
+select:hover{
+    background-color: rebeccapurple;
+    color:rgb(255, 255, 255);
+}
+
+[type='checkbox']{
+    height: 10px;
+}
+
+textarea{
+    background-color: lavender;
+    border-radius: 10px;
+}
+
+textarea:hover{
+    background-color: rebeccapurple;
+    box-shadow: rgb(55, 25, 85);
+    color:rgb(255, 255, 255);
+}
+
+
+[type='submit']{
+    border-radius: 10px;
+    background-color: lavender;
+    font-weight: 100;
+}
+
+[type='submit']:hover{
+    background-color: rebeccapurple;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
